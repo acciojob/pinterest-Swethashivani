@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:5px;
+}
+.hero img{
+	width:60%;
+	height:100%;
+	object-fit: cover;
+}
+ .hero div{
+	 text-align:center;
+ }
+.hero button {
+  background-color: #ff4c3b;; /* Example: Set a background color */
+  color: white; /* Example: Set text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding for better appearance */
+  font-size: 11px; /* Set font size */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hero button:hover {
+  background-color:#ff6f61  /* Darken background on hover */
+}
